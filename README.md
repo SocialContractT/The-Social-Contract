@@ -1,13 +1,13 @@
 # Social Contract App
 
-The **Social Contract App** is a platform where users create "contracts" with friends to achieve goals together. Each contract functions like a **group chat** and a **checklist**, where users must complete tasks by submitting proof (e.g., a photo or video). Proof verification may be automated using **visual AI**, and task completion is recorded on **Solana** with a simulated "Social Contract Coin" (non-monetary, no crypto mining).
+The **Social Contract App** is a platform where users create "contracts" with friends to achieve goals together. Each contract functions like a **group chat** and a **checklist**, where users must complete tasks by submitting proof (e.g., a photo or video). Proof verification may be automated using **visual AI**, and task completion is recorded on **Solana** (non-monetary, no crypto mining).
 
 ## Features
 - 📝 **Create Contracts** – Users define group challenges with deadlines.
 - 📩 **Messaging System** – Each contract has a built-in group chat.
 - ✅ **Task Completion Tracking** – Users submit proof to mark tasks as complete.
-- 🤖 **AI Verification (Planned)** – Automate proof validation.
-- 🔗 **Solana Integration (Planned)** – Track completed tasks on-chain.
+- 🤖 **AI Verification (Limited)** – Automate proof validation.
+- 🔗 **Solana Integration (In Progress)** – Track completed tasks on-chain.
 
 ---
 
@@ -15,7 +15,7 @@ The **Social Contract App** is a platform where users create "contracts" with fr
 
 ### **Phase 1: MVP (Current Stage)**
 - Basic contracts with group chat and checklist functionality.
-- Manual task verification.
+- Limited AI task verification.
 - Local Flask-based database storage.
 
 ### **Phase 2: User Growth**
@@ -56,7 +56,7 @@ The global personal development market is growing. This means more people are lo
 - **Backend**: Flask, Python  
 - **Frontend**: HTML, CSS, JavaScript  
 - **Database**: SQLite (MVP), PostgreSQL (future)  
-- **Blockchain**: Solana (Planned)  
+- **Blockchain**: Solana  
 
 ---
 
