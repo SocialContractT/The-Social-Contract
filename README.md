@@ -22,16 +22,14 @@ The **Social Contract App** is a platform where users create "contracts" with fr
 - Implement email-based authentication.
 - Enable contract sharing via invite links.
 - Optimize database for increased user activity.
+- Share links on targeted social media posts relating to self-improvement and motivation.
+- Ads on TikTok, Instagram, YouTube and X.
 
-### **Phase 3: AI & Blockchain Expansion**
-- Integrate **visual AI** for automated proof verification.
-- Implement **Solana** tracking for contract completions.
-- Introduce **leaderboards** and **rewards** for engagement.
-
-### **Phase 4: Monetization & Enterprise Adoption**
-- Introduce **premium features** (e.g., AI-enhanced verification).
-- Partner with **fitness apps & study groups** to gamify productivity.
-- Offer **API access** for corporate team challenges.
+### **Phase 3: Monetisation**
+- Ads & affiliate marketing targeting contract names (for privacy).
+- Merchandised sales related to popular contracts.
+- Freemium model offering advanced features like an AI personal life coach and ad-free user experience.
+- Branded public contracts - where sponsor's contract gets promoted to a wider audience.
 
 ---
 
@@ -42,6 +40,10 @@ The **Social Contract App** is a platform where users create "contracts" with fr
 ✔ Provides a **gamified** approach to personal & team productivity.  
 ✔ Uses **blockchain transparency** to prevent disputes.  
 ✔ Supports **community-driven motivation**.
+
+### ** Market Opportunity
+
+The global personal development market is growing. This means more people are looking for ways to stay committed to their goals. Many are dissatisfied with the traditional social media, seeking more authentic ways to connect. Our network is not about showcasing glamorous lifestyles. It’s about revealing the real effort it takes to achieve them. 
 
 ### **Challenges & Considerations**
 ⚠ **AI Verification Accuracy** – Ensuring reliable proof validation.  
@@ -60,7 +62,21 @@ The **Social Contract App** is a platform where users create "contracts" with fr
 
 ## 🚀 Getting Started
 
+Note: use the 'master' branch, not the default 'experimental' branch.
+
 ### **1. Clone the Repo**
 ```sh
-git clone https://github.com/SocialContractT/Social-Contract.git
-cd Social-Contract
+git clone https://github.com/SocialContractT/The-Social-Contract.git
+cd The-Social-Contract
+```
+
+### **2. Install Requirements**
+```sh
+pip install -r requirements.txt
+```
+
+### **3. Run on a Gunicorn server**
+```sh
+gunicorn -k eventlet -w 1 -b 0.0.0.0:8080 run:gunicorn_app
+```
+
